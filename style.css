@@ -1,0 +1,108 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+    background: #f5f4f4;
+    margin: 5px 0;
+}
+
+header {
+    background: #0d571f;
+    padding: 1rem;
+    text-align: center;
+    color: #d4d4d4;
+    text-transform: uppercase;
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 50px 50px;
+}
+
+#user-form {
+    padding: 30px;
+    background: #8a8080;
+}
+
+#user-form h1 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#user-form label {
+    display: block;
+    margin-block-end: 10px;
+}
+#password {
+    display: block;
+    
+}
+
+#user-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    
+}
+
+#user-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.button {    
+    width: 100%;
+    padding: 15px 15px;
+    border: 10px;
+    background: #0e502f;
+    color: rgb(253, 255, 255);
+    border-radius: 20px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+button :focus {
+outline: none;
+border: 2px solid rgb(20, 15, 15)   
+
+}
+@media screen and (min-width:992px) {
+input,
+textarea {
+    width: 450px;
+}
+}
+.button:hover {
+    background: rgb(204, 16, 16);
+}
+cursor
+.bg-sotet {
+    background: rgb(145, 51, 182);
+    color: rgb(235, 227, 227);
+}
+
+.error {
+    background: #f00;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
